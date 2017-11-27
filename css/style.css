@@ -1,0 +1,26 @@
+*                               { margin: 0; padding: 0; }
+body                            { background: #7ac366; margin: 30px auto; }
+h2                              { color: #FFF; margin: 0 0 10px 0; text-transform: uppercase; display: inline-block; }
+img                             { display: inline-block; margin: 0 10px 15px 0; }
+#page-wrap                      { width: 500px; margin: 30px auto; position: relative; }
+
+#chat-wrap                      { border: 2px solid #eee; margin: 0 0 15px 0; border-radius: 4px; }
+#chat-area                      { height: 300px; overflow: auto; border: 1px solid #FFF; padding: 20px; background: transparent; }
+#chat-area span                 { color: #7ac366; font-weight: bold; background: #FFF; padding: 5px 10px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area p                    { padding: 8px 0;  color: #FFF; padding-bottom: 5px;}
+
+#name-area                      { position: absolute; top: 12px; right: 0; color: white; text-align: right; }   
+#name-area span                 { font-weight: bold; }
+
+#send-message-area p            { float: left; color: white; padding-top: 27px; font-size: 14px; }
+#sendie                         { border: 3px solid #FFF; width: 500px; float: right; background: transparent; color: #FFF; resize: none;}
+
+.col-lg-12                      { padding-right: 0px;}
+
+.form-group textarea::-webkit-input-placeholder {
+  color: #FFF;
+}
+.form-group textarea:-moz-placeholder {
+  color: #FFF;
+}
+
